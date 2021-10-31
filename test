@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    
+    <title>My Personal Website!</title>
+  </head>
+  <body style="background-color:black">
+    <div id="container">
+      <div class="heading">
+        <div class="two-column">
+          <div class="heading-text-content">
+            <h1 class="orange" style="font: bold;">Hi, I'm Suhaib!</h1>
+            <p class="subheading">
+              I'm a Computer Science & Mathematics Major at Northeastern University
+            </p>
+            <p class="orange">
+              I'm learning how to create a personal website right now! I like baseball, FIFA, and board games
+              </p>
+            </p>
+          </div>
+          <img class="photo" width="240" height="240" src="jack-o-lantern.jpeg" />
+        </div>
+      </div>
+      <hr />
+      <div style="background-color:white" class="links">
+        <a href="mailto:personalemail@northeastern.edu">
+          <img src="email.svg" width="32" />
+        </a>
+        <a href="https://github.com/isuhaib12">
+          <img src="github.svg" width="32" />
+        </a>
+        <a href="https://www.linkedin.com/in/sadafkhansalar/">
+          <img src="linkedin.svg" width="32" />
+        </a>
+      </div>
+
+      <h2 class="orange" class="section-title">Projects</h2>
+      <section>
+        <div class="project-container">
+          <h3 class="orange" class="project-title">
+            MLB Predictions <span class="project-date">March 22</span>
+          </h3>
+
+          <p class="orange" class="project-description">
+            Predicts the MLB standings for 2022
+          </p>
+          <p class="orange" class="project-tools">
+            Used: R, Python, SQL
+          </p>
+        </div>
+
+        <div class="project-container">
+          <h3 class="orange" class="project-title">
+            Other Data Analysis Project
+            <span class="project-date">Oct 2020</span>
+          </h3>
+          <p class="orange" class="project-description">
+            Something where I found the greatest predictors of a future statistic
+          </p>
+          <p class="orange" class="project-tools">
+            Used: Java, Racket
+          </p>
+        </div>
+
+        <div class="project-container">
+          <h3 class="orange" class="project-title">
+            Heat Map Project
+
+            <span class="project-date">Feb 2019</span>
+          </h3>
+          <p class="orange" class="project-description">
+            Strike Zone Heat Maps
+          </p>
+          <p class="orange" class="project-tools">
+            Used: R
+          </p>
+        </div>
+      </section>
+      <h2 class="orange"class="section-title">Work History</h2>
+      <section>
+        <div class="project-container">
+          <h3 class="orange" class="project-title">
+            Northeastern University
+            <span class="project-date">May - Aug 2021</span>
+          </h3>
+          <p class="orange" class="project-description">
+            Was a Student
+          </p>
+          <p class="orange" class="project-tools">
+            Used: Python
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
